@@ -18,8 +18,17 @@
 .item1 {
   grid-column: 1 / 5;
   text-align: right !important;
+  background-color: gray !important;
 }
 
 .item18 {
   grid-column: 1 / 3;
+}
+
+.item5,
+.item9,
+.item17,
+.item13,
+.item20 {
+  background-color: #fda50f !important;
 }
