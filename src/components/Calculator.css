@@ -1,0 +1,25 @@
+.grid-container {
+  width: 40%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1px;
+  background-color: #cdd2d6;
+  padding: 10px;
+  }
+
+.grid-container > button {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  height: 100px;
+  }
+
+.item1 {
+  grid-column: 1 / 5;
+  text-align: right !important;
+}
+
+.item18 {
+  grid-column: 1 / 3;
+}
