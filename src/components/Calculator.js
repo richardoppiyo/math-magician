@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Calculator.css';
 import calculate from './logic/calculate';
+import Header from './Header';
 
 const Calculator = () => {
   const [state, setState] = useState({ total: '0' });
@@ -11,8 +12,15 @@ const Calculator = () => {
     setState(calculate(state, button));
   };
 
+  const myStyle = {
+    color: 'red',
+    marginLeft: '3vw',
+  };
+
   return (
     <div className="outerbox">
+      <Header />
+      <h2 style={myStyle}>Let&apos;s get it rolling!!</h2>
       <div className="grid-container">
         <button type="button" className="item1">{ state.next || state.operation || state.total || 0}</button>
         <button type="button" className="item2" onClick={() => handelClick(obj, 'AC')}>AC</button>

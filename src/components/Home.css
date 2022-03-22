@@ -1,0 +1,19 @@
+.content {
+  margin: 20px;
+  padding: 30px 70px;
+  background-color: aliceblue;
+  line-height: 2.3em;
+  border-left: 10px rgb(19, 21, 161) solid;
+  border-right: 10px lawngreen solid;
+  border-radius: 20px;
+}
+
+.Quotecontent {
+  margin: 20vh 5vw 10vh;
+  padding: 30px 70px;
+  background-color: aliceblue;
+  line-height: 2.3em;
+  border-right: 10px rgb(19, 21, 161) solid;
+  border-left: 10px lawngreen solid;
+  border-radius: 20px;
+}
