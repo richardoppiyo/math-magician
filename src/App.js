@@ -13,7 +13,6 @@ import Quotes from './components/Quotes';
 class App extends React.Component {
   render() {
     return (
-      // <Calculator />
       <Router>
         <Routes>
           <Route path="Quotes" element={<Quotes />} />
