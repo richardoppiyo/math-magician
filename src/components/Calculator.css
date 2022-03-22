@@ -1,8 +1,8 @@
 .grid-container {
-  width: 35%;
+  width: 38%;
   display: grid;
   grid-template-columns: auto auto auto auto;
-  gap: 0.5px;
+  gap: 1px;
   background-color: #cdd2d6;
   padding: 10px;
   margin: 0 10vw 0 auto;
@@ -21,7 +21,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   font-size: 30px;
-  height: 85px;
+  height: 90px;
 }
 
 .item1 {

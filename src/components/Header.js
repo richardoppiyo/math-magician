@@ -7,7 +7,7 @@ const Header = () => (
       My Math Magician
     </h1>
     <ul className="lists">
-      <a href="/Home" className="list-item">Home</a>
+      <a href="/" className="list-item">Home</a>
       <a href="/Calculator" className="list-item">Calculator</a>
       <a href="/Quotes" className="list-item">Quotes</a>
     </ul>
