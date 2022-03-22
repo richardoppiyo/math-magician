@@ -4,15 +4,15 @@ import './HeaderStyles.css';
 const Header = () => (
   <header className="headsection">
     <h1 style={{
-      fontSize: '3rem', fontWeight: '400', marginBottom: '2rem', lineHeight: '1em', color: '#000', textTransform: 'lowercase',
+      fontSize: '3rem', fontWeight: '400', marginBottom: '2rem', lineHeight: '1em', color: '#000',
     }}
     >
-      Math Magician
+      My Math Magician
     </h1>
     <ul className="lists">
-      <a href="/" className="list-item">Home</a>
-      <a href="/" className="list-item">Calculator</a>
-      <a href="/" className="list-item">Quote</a>
+      <a href="/Home" className="list-item">Home</a>
+      <a href="/Calculator" className="list-item">Calculator</a>
+      <a href="/Quotes" className="list-item">Quotes</a>
     </ul>
   </header>
 );
