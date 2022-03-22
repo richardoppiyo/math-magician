@@ -3,10 +3,7 @@ import './HeaderStyles.css';
 
 const Header = () => (
   <header className="headsection">
-    <h1 style={{
-      fontSize: '3rem', fontWeight: '400', marginBottom: '2rem', lineHeight: '1em', color: '#000',
-    }}
-    >
+    <h1 className="heading">
       My Math Magician
     </h1>
     <ul className="lists">
