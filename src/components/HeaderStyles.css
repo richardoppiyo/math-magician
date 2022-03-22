@@ -1,0 +1,21 @@
+.headsection {
+    padding: 20px 0;
+    lineHeight: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lists {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-item {
+    text-decoration: none;
+    margin: 20px;
+}
