@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeaderStyles.css';
+import { Link } from 'react-router-dom';
 
 const Header = () => (
   <header className="headsection">
@@ -7,9 +8,9 @@ const Header = () => (
       My Math Magician
     </h1>
     <ul className="lists">
-      <a href="/" className="list-item">Home</a>
-      <a href="/Calculator" className="list-item">Calculator</a>
-      <a href="/Quotes" className="list-item">Quotes</a>
+      <Link to="/" className="list-item">Home</Link>
+      <Link to="/Calculator" className="list-item">Calculator</Link>
+      <Link to="/Quotes" className="list-item">Quotes</Link>
     </ul>
   </header>
 );
