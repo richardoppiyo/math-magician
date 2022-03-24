@@ -22,6 +22,12 @@
 - npm ( Node Package Manager )
 - git and Github Account
 
+### Heroku Live Link
+https://my-math-magician.herokuapp.com
+
+
+### Netlify Live Link
+https://lambent-klepon-d33858.netlify.app
 
 
 ### Install linters
